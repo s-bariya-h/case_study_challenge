@@ -28,7 +28,7 @@ This repository is for the submission of the **Case Study for QA Engineer** carr
           │   |    |__ config.js
           |   |
           │   ├──  integration
-          |   |    |__ specs.js
+          |   |    |__ spec.js
           |   |
           │   ├──  screenshots
           │   |__  videos
@@ -83,6 +83,7 @@ Scenario: Search for a specific city
 
 <br><br>
 
+---
 
 <h1 align="center">Task 2</h1>
 
@@ -130,7 +131,6 @@ Scenario: Verify that the list of 'Featured hotels and resorts' displays all hot
 > * This cannot be worked around by accessing each element specifically but that is against the best practices as well as not very scalable.
 > * Below image may help achieve clarity of the problem. 
 <blockquote>
-<p align="center">Screen Shot Placeholder</p>
 <p align="center"><img src="images/code_ss.JPG"/></p>
 </blockquote>
 
@@ -169,9 +169,10 @@ Scenario: Verify that there are no broken links in the article
 </blockquote>
 
 - You will see the test cases running.
-- If you want to see/edit the content of the test file, go to `~/cypress/integration/specs.js`
+- After the first run, you will see `cypress/videos` and `cypress/screenshots` folders appear in your local machine. Check out there content for yourself!
+- If you want to see/edit the content of the test file, go to `~/cypress/integration/spec.js`
 - `specs.js` files follows the generic content in the `~/cypress/config/config.js` file.
-- If you edit the tests and run again, change the content of the `specs.js` file and run `docker-compose up` again from the terminal.
+- If you edit the tests and run again, change the content of the `spec.js` file and run `docker-compose up` again from the terminal.
 
 ---
 
