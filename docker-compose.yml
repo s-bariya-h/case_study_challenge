@@ -1,0 +1,10 @@
+version: "2.0"
+
+services:
+  cypress:
+    image: cypress/included:8.6.0
+    entrypoint: ["cypress", "run", "--browser", "chrome:stable"]
+    volumes:
+      - ./:/e2e
+    working_dir: /e2e
+    container_name: QA-case-study
