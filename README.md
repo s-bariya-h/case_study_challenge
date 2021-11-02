@@ -171,7 +171,7 @@ Scenario: Verify that there are no broken links in the article
 - You will see the test cases running.
 - After the first run, you will see `cypress/videos` and `cypress/screenshots` folders appear in your local machine. Check out there content for yourself!
 - If you want to see/edit the content of the test file, go to `~/cypress/integration/spec.js`
-- `specs.js` files follows the generic content in the `~/cypress/config/config.js` file.
+- `spec.js` file follows the generic content in the `~/cypress/config/config.js` file.
 - If you edit the tests and run again, change the content of the `spec.js` file and run `docker-compose up` again from the terminal.
 
 ---
