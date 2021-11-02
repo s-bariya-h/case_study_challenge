@@ -131,7 +131,7 @@ Scenario: Verify that the list of 'Featured hotels and resorts' displays all hot
 > * Below image may help achieve clarity of the problem. 
 <blockquote>
 <p align="center">Screen Shot Placeholder</p>
-<p align="center"><img src="images/screenshot.JPG"/></p>
+<p align="center"><img src="images/code_ss.JPG"/></p>
 </blockquote>
 
 #### CaseID_2.2
